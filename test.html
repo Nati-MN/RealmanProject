@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Original Text Styles</title>
+<style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: #ff6600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .highlight {
+    background: linear-gradient(to right, #ff6600, #ffcc00);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .animated-text {
+    font-size: 2rem;
+    color: #0b87ca;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to <span class="highlight">Creative Text</span></h1>
+    <p>Explore the <span class="animated-text">possibilities</span> of original text styles.</p>
+  </div>
+</body>
+</html>
