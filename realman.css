@@ -8,8 +8,21 @@
     padding-right: 150px;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 4px rgba(53, 3, 255, 0.2);
-    background: linear-gradient(to right, #09317b, #273469,#09317b, #2a4097); 
+    background-color: #1F2937;
     
+  }
+
+  button{
+    background-color: #3882F6;
+    cursor:context-menu;
+    padding: 10px 20px;
+  }
+
+  i {
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    font-style: inherit;
   }
   .highlight {
     background: linear-gradient(to left,rgb(0, 0, 160), rgb(20, 20, 180),rgb(60, 60, 250));
@@ -25,46 +38,51 @@
     justify-content: space-between;
     align-items: center;
    
-  }
-  .main-text h2 {
-    margin: 0;
-  }
-  
-  .buttons {  
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
+  } 
   
   .section2 {
-    background-color: #2d2dc6;
-    margin: 20px;
-    border: 1px solid #ccc;
+    /* background-color: #1F2937;
     border-radius: 5px;
+    border: 1px solid #ccc;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding-top: 20px;  */
+    display: flex;
+    justify-content: space-between;
   }
+  .box{
+    width: auto;
+    height: 200px;
+    background-color: #222225;
+    color: white;
+    /* margin: 10px; */
+  }
+  .box2{
+    width: auto;
+    height: 50px;
+    background-color: #222225;
+    color: white;
+  }
+  .box2 img{
+    width: 600px;
+    height: auto;
+  }
+  
+
   .section3 {
     background-color: #2929ab;
-     padding: 20px;
-    margin: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   }
   .section4 {
     background-color: #2c66c2;
-     padding: 20px;
-    margin: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 5px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   }
   .footer{
     background-color: #043e90;
-     padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   }
