@@ -4,17 +4,29 @@
   <title>JavaScript for noobs</title>
 </head>
 <body>
+  
     <h1>JavaScript Arithmetic</h1>
 <h2>learning new things with JavaScript</h2>
-    <p id="demo"></p>
+
+
+<button>Press me</button>
+<div id="greeting"></div>  
+
+<p id="demo"></p>
   <script>
     console.log("The 8 types of Data");
-
-    let a = "BMW M5 CS";
-    let b = "AUDI RS7";
-    let c = `${a} and ${b} - both are great cars. But BMW is better :)`;
-    alert(c);
     
+
+const button = document.querySelector("button");
+
+function greet() {
+  const name = prompt("What is your name?");
+  const greeting = document.querySelector("#greeting");
+  greeting.textContent = `Hello ${name}, nice to see you!`;
+}
+
+button.addEventListener("click", greet);
+   
 document.getElementById("demo").innerHTML ;
         </script>
     </body>
