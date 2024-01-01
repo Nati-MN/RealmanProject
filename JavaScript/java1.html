@@ -9,8 +9,8 @@
 <h2>learning new things with JavaScript</h2>
 
 
-<button>Press me</button>
-<div id="greeting"></div>  
+<button>enter age</button>
+<div id="old"></div>
 
 <p id="demo"></p>
   <script>
@@ -19,13 +19,15 @@
 
 const button = document.querySelector("button");
 
-function greet() {
-  const name = prompt("What is your name?");
-  const greeting = document.querySelector("#greeting");
-  greeting.textContent = `Hello ${name}, nice to see you!`;
-}
 
-button.addEventListener("click", greet);
+
+function age() {
+  const age = prompt("How old are you?");
+  const old = document.querySelector("#old");
+  old.textContent = `Hello Natanael ,you are ${age} years old !`;
+}
+button.addEventListener("click", age);
+
    
 document.getElementById("demo").innerHTML ;
         </script>
