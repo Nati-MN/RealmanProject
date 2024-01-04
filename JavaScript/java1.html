@@ -9,27 +9,16 @@
 <h2>learning new things with JavaScript</h2>
 
 
-<button>enter age</button>
-<div id="old"></div>
-
 <p id="demo"></p>
   <script>
     console.log("The 8 types of Data");
-    
 
-const button = document.querySelector("button");
+    let text = "Apple, Banana, Kiwi";
+let part2 = text.substr(7);
 
 
 
-function age() {
-  const age = prompt("How old are you?");
-  const old = document.querySelector("#old");
-  old.textContent = `Hello Natanael ,you are ${age} years old !`;
-}
-button.addEventListener("click", age);
-
-   
-document.getElementById("demo").innerHTML ;
+document.getElementById("demo").innerHTML = part2;
         </script>
     </body>
 </html>
